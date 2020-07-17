@@ -1,0 +1,40 @@
+.search{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    height: 40px; 
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    margin-left: 20rpx;
+}
+.table {
+    border: 0px solid darkgray;
+  }
+  .tr {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 3rem;
+    align-items: center;
+  }
+  .td {
+      width:40%;
+      justify-content: center;
+      text-align: center;
+  }
+  .bg-w{
+    background: snow;
+  }
+  .bg-g{
+    background: rgb(217,241,194);
+  }
+  .th {
+    width: 40%;
+    justify-content: center;
+    background: rgb(115,191,62);
+    color: #fff;
+    display: flex;
+    height: 3rem;
+    align-items: center;
+  }

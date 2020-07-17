@@ -1,0 +1,40 @@
+<!-- 取消 -->
+<view class="top">取消</view>
+
+<!-- 取件时间 -->
+<view style="margin:30rpx 0 50rpx 0">
+    <!-- 快递公司 -->
+    <view class="header-name">
+        <image class="header-name-icon" src="../../images/中通快递.png"/>
+        <view >中通快递</view>
+    </view>
+
+    <!-- 时间 -->
+    <view class="header-title">确认后，快递员将于</view>
+    <view class="header-time">2020-4-2 09:20:30-2020-4-2 10:20:30</view>
+    <view class="header-title">进店取件</view>
+</view>
+
+<!-- 收发地址 -->
+<view class="addr">
+    <view class="addr-confirm">请确认订单内容无误</view>
+
+    <view class="addr-send" wx:for="{{array}}">
+        <image class="addr-icon" src="{{item.iconlist}}"/>
+        <view class="addr-content">
+            <view style="font-size:35rpx">{{item.addrlist}}</view>
+            <view style="font-size:32rpx;color:gray">联系电话：{{item.phonelist}}</view>
+        </view>
+    </view>
+</view>
+
+<!-- 配送类型 -->
+<view class="food">
+    <view class="food-detail">订单详情</view>
+    <view class="food-detail">三文鱼500g 生菜500g</view>
+    <view class="food-detail">生牛肉500g 土豆500g</view>
+    <view class="food-detail">预计重量：2kg</view>
+</view>
+
+<!-- 确定 -->
+<button class="btn">确定</button>

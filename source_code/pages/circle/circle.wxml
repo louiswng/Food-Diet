@@ -1,0 +1,57 @@
+<!-- 标头 -->
+<view class="header">
+    <view class="header-unselected">关注</view>
+    <view class="header-selected">推荐</view>
+    <view class="header-unselected">热门</view>
+</view>
+
+<!-- 动态 -->
+<view class="content">
+    <!-- 第一条 -->
+    <view class="content-item">
+        <!-- 头部 -->
+        <view class="content-header">
+            <image class="content-header-avatar" src="../../images/头像.jpg"/>
+            <view style="margin-left:30rpx;">wtl</view>
+            <image class="content-header-vip" src="../../images/vip.png"/>
+        </view>
+
+        <!-- 内容 -->
+        <view class="content-text">健康饮食瘦身 20斤，练重要吃更重要！👌</view>
+
+        <!-- 图片 -->
+        <view class="content-img">
+            <image class="content-img-img" wx:for="{{array1}}" src="{{item}}" />
+        </view>
+
+        <!-- 元数据 -->
+        <view class="content-metadata">
+            <view >热门动态</view>
+            <view >4883 人浏览</view>
+        </view>
+    </view>
+
+    <!-- 第二条 -->
+    <view class="content-item">
+        <!-- 头部 -->
+        <view class="content-header">
+            <image class="content-header-avatar" src="../../images/头像2.jpg"/>
+            <view style="margin-left:30rpx;">wtl</view>
+            <image class="content-header-vip" src="../../images/vip.png"/>
+        </view>
+
+        <!-- 内容 -->
+        <view class="content-text">宿舍党花样饮食 👍</view>
+
+        <!-- 图片 -->
+        <view class="content-img">
+            <image class="height:225rpx;width:225rpx;" wx:for="{{array2}}" src="{{item}}" />
+        </view>
+
+        <!-- 元数据 -->
+        <view class="content-metadata">
+            <view >热门动态</view>
+            <view >1521 人浏览</view>
+        </view>
+    </view>
+</view>

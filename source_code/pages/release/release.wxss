@@ -1,0 +1,75 @@
+.content{
+    margin-top: 30rpx;
+    background-color: white;
+    height: 1500rpx;
+}
+.content-header{
+    display: flex;
+    align-items: center;
+    padding-left: 30rpx;
+    padding-top: 30rpx;
+}
+.content-header-avatar{
+    height: 100rpx;
+    width: 100rpx;
+    border-radius: 50%;
+}
+.content-header-vip{
+    height: 50rpx;
+    width: 50rpx;
+    margin-left: 30rpx;
+}
+.content-text{
+    color: #bfbfbf;
+    font-size: 35rpx;
+    padding: 30rpx 0 250rpx 30rpx;
+}
+.content-img{
+    height: 200rpx;
+    width: 200rpx;
+    padding-left: 30rpx;
+}
+.content-option{
+    display: flex;
+    justify-content: space-between;
+    padding: 40rpx 30rpx;
+    border-bottom: 1px solid #f1f0f0;
+}
+.content-icon{
+    height: 40rpx;
+    width: 40rpx;
+}
+.content-title{
+    font-size: 32rpx;
+    padding-left: 20rpx;
+}
+.content-prompt{
+    font-size: 28rpx;
+    color: gray;
+}
+.content-tail{
+    display: flex;
+    justify-content: space-between;
+    margin: 20rpx 30rpx;
+}
+.content-auth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f0f0;
+    height: 50rpx;
+    width: 110rpx;
+    border-radius: 30rpx;
+}
+.content-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 189, 93);
+    border-radius: 40rpx;
+    font-size: 28rpx;
+    font-weight: bold;
+    color: white;
+    width:120rpx;
+    height:60rpx;
+}

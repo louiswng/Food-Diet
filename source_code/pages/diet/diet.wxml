@@ -1,0 +1,32 @@
+    <view class="title">
+        <view class="title1">健身减脂食谱</view>
+        <view class="title2">专业塑形运动饮食推荐</view>
+    </view>
+    <image class="img1" src="../../images/健身减脂食谱.png"/>
+    
+    <view class="list">
+        <view class="item">
+            <image class="img2" src="../../images/热量表.png"/>
+            <view class="name">热量表</view>
+        </view>
+        <view class="item">
+            <image class="img2" src="../../images/增肌餐.png"/>
+            <view class="name">增肌餐</view>
+        </view>
+        <view class="item">
+            <image class="img2" src="../../images/减脂.png"/>
+            <view class="name">减脂餐</view>
+        </view>
+        <view class="item">
+            <image class="img2" src="../../images/专业餐.png"/>
+            <view class="name">专业餐</view>
+        </view>
+    </view>
+<view class="diet">
+    <view class="title3">热门食谱</view>
+    <image  class="img3" mode="scaleToFill" src="../../images/瘦身餐.png"/>
+</view>
+<view class="diet">
+    <view class="title3">最新食谱</view>
+    <image  class="img3" mode="scaleToFill" src="../../images/瘦身餐.png"/>
+</view>

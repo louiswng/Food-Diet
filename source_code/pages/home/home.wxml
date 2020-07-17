@@ -1,0 +1,47 @@
+<!-- 搜索 -->
+<view class="search">
+    <view style='width:15%;display:inline-block;height:50rpx;'>
+        <image src='../../images/搜索灰.png' style='display:inline' mode="aspectFit"></image>
+    </view>
+    <input style="display:inline-block" placeholder="请输入关键字搜索"></input>
+</view>
+
+<!-- 轮播图 -->
+<swiper indicator-dots circular autoplay>
+  <swiper-item wx:for="{{imglist}}">
+    <image src="{{item}}" />
+  </swiper-item>
+</swiper>
+
+<!-- 首页功能 -->
+<view class="func">
+    <!-- 第一行 -->
+    <view class="func-line">
+        <button class="func-item" wx:for="{{array1}}">
+            <image class="func-icon" src="{{item.iconlist}}" />
+            <view class="func-name">{{item.namelist}}</view>
+        </button>
+    </view>
+
+    <!-- 第二行 -->
+    <view class="func-line">
+        <button class="func-item" wx:for="{{array2}}">
+            <image class="func-icon" src="{{item.iconlist}}" />
+            <view class="func-name">{{item.namelist}}</view>
+        </button>
+    </view>  
+</view>
+
+<!-- 精选 -->
+<view class="sel">
+    <!-- 标头 -->
+    <view class="sel-header">
+        <view style="margin-left:10rpx">精选</view>
+        <view style="margin-right:10rpx;color:blue">更多</view>
+    </view>
+
+    <!-- 精选图片 -->
+    <view class="sel-content">
+        <image class="sel-content-img" wx:for="{{sel_imglist}}" src="{{item}}"/>
+    </view>
+</view>

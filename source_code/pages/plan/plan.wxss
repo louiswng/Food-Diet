@@ -1,0 +1,57 @@
+page{
+    background-color: rgb(244, 245, 246, 1);
+}
+
+.week{
+    font-size: 30rpx;
+    color: grey;
+    padding-left: 40rpx;
+    padding-top: 20rpx;
+}
+.food{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20rpx;
+    padding-bottom: 20rpx;
+    padding-left: 30rpx;
+    border: 1px solid whitesmoke;
+}
+.food-left{
+    display: flex;   
+}
+.img{
+    height: 125rpx;
+    width: 225rpx;
+}
+.right{
+    padding-left: 40rpx;
+}
+.name{
+    font-size: 35rpx;
+    font-weight: bold;
+}
+.cal{
+    font-size: 30rpx;
+    color: grey;
+    padding-top: 30rpx;
+}
+.total{
+    font-size: x-small;
+    padding-top: 20rpx;
+    padding-bottom: 40rpx;
+    padding-left: 40rpx;
+    color: grey;
+}
+.food-right{
+    margin-right: 20rpx;
+}
+.food-vip{
+    height: 50rpx;
+    width: 50rpx;
+    margin-right: 20rpx;
+}
+.food-shop{
+    height: 50rpx;
+    width: 50rpx;
+}

@@ -1,0 +1,53 @@
+<!-- 表头 -->
+<view class="head">
+    <view class="left">
+        <view class="left1">文章</view>
+        <view class="left2">专题</view>
+    </view>
+    <image class="right" src="../../images/搜索.png"></image>
+</view>
+
+<!-- 内容 -->
+<view class="content">
+    <view class="arti">
+        <image class="img1" src="../../images/文章图1.png"/>
+        <view class="title">健身餐应该怎样吃</view>
+        <view class="scan">
+            <view class="img-right">
+                <image class="img2" src="../../images/讨论.png"/>
+                <text class="num">12</text>
+                <image class="img2" src="../../images/查看.png"/>
+                <text class="num">122</text>
+            </view>
+            <view class="time">1分钟前</view>
+        </view>
+    </view>
+
+    <view class="arti">
+        <image class="img1" src="../../images/鸡蛋.png"/>
+        <view class="title">一个鸡蛋的自我修养</view>
+        <view class="scan">
+            <view class="img-right">
+                <image class="img2" src="../../images/讨论.png"/>
+                <text class="num">9</text>
+                <image class="img2" src="../../images/查看.png"/>
+                <text class="num">101</text>
+            </view>
+            <view class="time">2分钟前</view>
+        </view>
+    </view>
+
+    <view class="arti">
+        <image class="img1" src="../../images/健身图片.png"/>
+        <view class="title">健身餐应该怎样吃</view>
+        <view class="scan">
+            <view class="img-right">
+                <image class="img2" src="../../images/讨论.png"/>
+                <text class="num">12</text>
+                <image class="img2" src="../../images/查看.png"/>
+                <text class="num">122</text>
+            </view>
+            <view class="time">1分钟前</view>
+        </view>
+    </view>
+</view>

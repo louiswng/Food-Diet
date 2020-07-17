@@ -1,0 +1,47 @@
+<!-- 内容 -->
+<view class="content">
+    <!-- 头像 -->
+    <view class="content-header">
+        <image class="content-header-avatar" src="../../images/头像2.jpg"/>
+        <view style="margin-left:30rpx">wtl</view>
+        <image class="content-header-vip" src="../../images/vip.png"/>
+    </view>
+    <!-- 文字 -->
+    <input class="content-text" placeholder="分享你的饮食心得和经验吧"></input>
+
+    <!-- 图片 -->
+    <image class="content-img" src="../../images/添加照片.png"/>
+
+    <!-- 话题 -->
+    <view class="content-option">
+        <view style="display:flex">
+            <image class="content-icon" src="../../images/话题.png"/>
+            <view class="content-title">添加话题</view>
+        </view>
+        <view style="display:flex">
+            <view class="content-prompt">选择合适的话题有更多赞~</view>
+            <image class="content-icon"  src="../../images/右箭头.png"/>
+        </view>
+    </view>
+
+    <!-- 位置 -->
+    <view class="content-option">
+        <view style="display:flex">
+            <image class="content-icon" src="../../images/位置.png"/>
+            <view class="content-title">你的位置</view>
+        </view>
+        <image class="content-icon"  src="../../images/右箭头.png"/>
+    </view>
+
+    <!-- 尾部 -->
+    <view class="content-tail">
+        <!-- 浏览权限 -->
+        <view class="content-auth">
+            <image src='../../images/权限.png' style='display:inline;height:30rpx;width:30rpx'/>
+            <view style="display:inline-block;font-size:28rpx;padding-left:7rpx">公开</view>
+        </view>
+
+        <!-- 发布 -->
+        <view class="content-btn">发布</view>
+    </view>
+</view>

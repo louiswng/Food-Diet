@@ -1,0 +1,91 @@
+.counter{
+    display: flex;
+    align-items: center;
+}
+.counter view{
+    width: 50rpx;
+    height: 50rpx;
+    color: #78aaca;
+    font-weight: bold;
+}
+.btn{
+    height: 50rpx;
+    width: 50rpx;
+    border-radius: 50%;
+    /* border: 1px solid #78aaca; */
+}
+.food{
+    height: 150rpx;
+    width: 200rpx;
+}
+.minus{
+    border-color: #78aaca;
+}
+.add{
+    background: #78aaca;
+    color: #fff;
+}
+.item{
+    background: #fff;
+    display: flex;
+    padding: 30rpx 40rpx;
+    align-items: center;
+    border-bottom: 1px solid #f7f7f7;
+}
+.item .img{
+    font-size: 40rpx;
+    color: #78aaca;
+}
+.item .content{
+    font-weight: bold;
+    padding: 0 50rpx;
+}
+
+.desc{
+    font-size: 24rpx;
+    font-weight: normal;
+    margin: 16rpx 0;
+}
+.item .counter{
+    position: absolute;
+    right: 40rpx;
+}
+.detial{
+    margin-left: 30rpx;
+}
+.name{
+    font-size: 35rpx;
+}
+.footerbar{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    padding: 30rpx;
+    align-items: center;
+    box-sizing: border-box;
+}
+.btn2{
+    background: #78aaca;
+    color: #fff;
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    width: 250rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.num{
+    padding-left: 30rpx;
+}
+.fee{
+    font-size: 27rpx;
+    color: grey;
+    margin-left: 50rpx;
+}
+.total{
+    font-size: 32rpx;
+    padding-left: 20rpx;
+}

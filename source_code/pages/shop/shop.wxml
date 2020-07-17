@@ -1,0 +1,26 @@
+<view >
+    <view wx:for="{{prodlist}}" class="item">
+        <!-- <image data-id="{{item.id}}" class="btns" src="{{item.isselected ? "../../images/对勾1.png":"../../images/对勾2.png"}}" /> -->
+        <image class="btn" wx:if="{{item.isselected}}" src="../../images/对勾1.png"/>
+        <image class="btn" wx:else src="../../images/对勾2.png"/>
+        <image class="food" src="{{item.foodpath}}"/>
+        <view class="detial">
+            <view class="name">{{item.name}}</view>
+            <view class="desc">{{item.desc}}</view>
+            <view class="name">￥{{item.price}}</view>
+        </view>
+        <view class="counter">
+            <image class="btn" src="../../images/减.png"/>
+            <view class="num">{{item.count}}</view>
+            <image class="btn" src="../../images/加.png"/>
+        </view>
+    </view>
+</view>
+
+<view class="footerbar">
+    <image class="btn" src="../../images/对勾2.png"/>
+    <view class="name">全选</view>
+    <view class="fee">不含运费</view>
+    <view class="total">合计：￥{{totalprice}}</view>
+    <view class="btn2">去结算</view>
+</view>

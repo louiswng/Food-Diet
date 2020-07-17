@@ -1,0 +1,117 @@
+<!-- 第一部分 -->
+<view class="box bgclr3e clrff pad20">
+    <view>
+        <image class="avatar" src="../../images/头像.jpg"></image>
+    </view>
+    <view >wtl</view>
+    <view >
+        <image class="arrow" src="../../images/右箭头.png"> </image>
+    </view>
+</view>
+
+<!-- 第二部分 -->
+<view class="box bgclr3e clrff part2 pad20 font32">
+    <view class="block2">
+        <view >0</view>
+        <view >动态</view>
+    </view>
+
+    <view class="block2">
+        <view >0</view>
+        <view >粉丝</view>
+    </view>
+
+    <view class="">
+        <view >0</view>
+        <view >7天访客</view>
+    </view>
+</view>
+
+<!-- 第三部分 -->
+<view class="box bgclrwhite pad20 font32">
+    <view class="block3">
+        <view >
+            <image class="img3" src="../../images/收藏.png"/>
+        </view>
+        <view >收藏</view>
+    </view>
+
+    <view class="block3">
+        <view >
+            <image class="img3" src="../../images/历史.png"/>
+        </view>
+        <view >历史</view>
+    </view>
+
+    <view class="block3">
+        <view >
+            <image class="img3" src="../../images/夜间.png"/>
+        </view>
+        <view >夜间</view>
+    </view>
+</view>
+
+<!-- 第四部分 -->
+<view class="box bgclrwhite part4 pad20 font32">
+    <view class="block4">
+        <view >
+            消息通知
+        </view>
+    </view>
+    <view >
+        <image class="arrow" src="../../images/右箭头.png"/>
+    </view>
+</view>
+
+<!-- 第五部分 -->
+<view class="box bgclrwhite part6 pad20 font32">
+    <view class="block6">
+        <view >
+            我的饮食计划
+        </view>
+    </view>
+    <view>
+        <image class="arrow" src="../../images/右箭头.png" />
+    </view>
+
+    <view class="block6">
+        <view >
+            我的配送
+        </view>
+    </view>
+    <view>
+        <image class="arrow" src="../../images/右箭头.png" />
+    </view>
+
+    <view class="block6">
+        <view >
+            我的饮食记录
+        </view>
+    </view>
+    <view>
+        <image class="arrow" src="../../images/右箭头.png" />
+    </view>
+</view>
+
+<!-- 第六部分 -->
+<view class="box bgclrwhite part5 pad20 font32">
+    <view class="block5">
+        <view >
+            邀请新人
+        </view>
+    </view>
+    <view >
+        <text >邀请好友得20元现金奖励</text>
+        <image class="arrow" src="../../images/右箭头.png"/>
+    </view>
+
+    <view class="block5">
+        <view >
+            新人特惠
+        </view>
+    </view>
+    <view >
+        <text >新人领18元红包</text>
+        <image class="arrow" src="../../images/右箭头.png"/>
+    </view>
+</view>

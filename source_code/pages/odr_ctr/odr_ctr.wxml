@@ -1,0 +1,39 @@
+<!-- 标头 -->
+<view class="top">
+    <view class="option-selected">新任务</view>
+    <view class="option-unselected">待取货</view>
+    <view class="option-unselected">配送中</view>
+</view>
+
+<!-- 订单信息 -->
+<view class="list" wx:for="{{arraylist}}" wx:for-item="list">
+    <view class="title">
+        <view class="order-income">
+            <view style="color:orange;font-size:52rpx">{{list.income}}</view>
+            <view style="color:gray;font-size:30rpx">本单收入</view>
+        </view>
+        <view class="order-time">
+            <view style="color:orange;font-size:52rpx">{{list.time}}</view>
+            <view style="color:gray;font-size:30rpx">取货时间</view>
+        </view>
+    </view>
+
+    <view class="addr" wx:for="{{list.array}}" wx:for-item="addr">
+        <view class="addr-left">
+            <image class="addr-icon" src="{{addr.iconlist}}"/>
+            <view class="addr-content">
+                <view style="font-size:35rpx">{{addr.addrlist}}</view>
+                <view style="font-size:30rpx;color:gray">{{addr.addr_detail_list}}</view>
+            </view>
+        </view>
+
+        <view style="display:flex">
+            <view style="font-size:28rpx;color:orange">{{addr.dis}}</view>
+            <view style="font-size:28rpx;color:gray">km取货</view>
+        </view>
+    </view>
+
+    <view style="display:flex;justify-content:center">
+        <navigator class="btn">立即抢单</navigator>
+    </view>
+</view>

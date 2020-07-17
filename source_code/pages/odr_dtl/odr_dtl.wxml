@@ -1,0 +1,38 @@
+<!-- 标头 -->
+<view class="top">
+    <view class="option-selected">全部订单</view>
+    <view class="option-unselected">历史订单</view>
+    <view class="option-unselected">我的评价(3)</view>
+</view>
+
+<!-- 商家名称 -->
+<view class="list" wx:for="{{array_list}}" wx:for-item="list">
+    <view class="header">
+        <view class="header-left">
+            <image class="header-icon" src="{{list.iconlist}}"/>
+            <view class="header-title">
+                <view style="font-weight:bold">{{list.namelist}}</view>
+                <view style="font-size:32rpx;color:gray">{{list.timelist}}</view>
+            </view>
+        </view>
+        <view class="header-status">{{list.statuslist}}</view>
+    </view>
+
+    <view class="content">
+        <view style="color:gray">......</view>
+        <view class="content-total">
+            <view >总重量：{{list.weightlist}}</view>
+            <view >共{{list.numlist}}件</view>
+        </view>
+    </view>
+
+    <view class="btn">
+        <navigator class="btn-style">联系卖家</navigator>
+        <navigator class="btn-style">联系买家</navigator>
+        <navigator class="btn-style">更新进度</navigator>
+    </view>
+</view>
+
+<!-- 内容 -->
+
+<!-- 按钮 -->

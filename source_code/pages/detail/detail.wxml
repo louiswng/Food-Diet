@@ -1,0 +1,14 @@
+<image class="food" src="../../images/早餐.png"/>
+<view class="item">
+    <view class="name">健康无油版香蕉燕麦松饼</view>
+    <view class="detial">已有80人点赞 90人收藏</view>
+</view>
+<view class="user">
+    <image class="avatar" src="../../images/头像2.jpg"/>
+    <view class="nickname">wtl</view>
+</view>
+<image class="dot" src="../../images/冒号 .png"/>
+<view class="descr">做的这款香蕉燕麦松饼，无油无糖，甜甜软软的，很适合宝宝哦。食材都很常见，搅到一起，剩下的就交给平地不粘锅。</view>
+<view class="ingre">-需要材料-</view>
+<image class="dot" src="../../images/冒号 .png"/>
+<view class="descr">香蕉一根 松饼500g</view>

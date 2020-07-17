@@ -1,0 +1,19 @@
+page{
+    background-color: white;
+}
+.top{
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 35rpx;
+    font-weight: bold;
+    padding-top: 20rpx;
+}
+.option-selected{
+    padding-bottom: 20rpx;
+    border-bottom: 2px solid orange;
+    color: orange;
+}
+.option-unselected{
+    color: gray;
+}

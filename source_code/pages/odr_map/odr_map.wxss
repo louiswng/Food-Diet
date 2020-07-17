@@ -1,0 +1,93 @@
+.odr-map{
+    width:100%;
+    height:500px;
+}
+.mylocation{
+    background-color: white;
+    width: 70rpx;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 30rpx;
+    bottom: 400rpx;
+}
+.scale{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 70rpx;
+    height: 140rpx;
+    border: 1px solid lightgray;
+    position: absolute;
+    right: 30rpx;
+    bottom: 400rpx;
+}
+.navi{
+    background-color: white;
+    height: 70rpx;
+    width: 150rpx;
+    border-radius: 50rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32rpx;
+    color: blue;
+    position: absolute;
+    left: 300rpx;
+    bottom: 400rpx;
+}
+.container{
+    background-color: white;
+    height: 350rpx;
+    width: 700rpx;
+    position: absolute;
+    bottom: 30rpx;
+    margin-left: 30rpx;
+}
+.info{
+    margin: 30rpx 20rpx;
+}
+.info-header{
+    display: flex;
+    align-items: center;
+    font-size:32rpx;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20rpx;
+}
+.info-addr{
+    display: flex;
+    margin-top: 20rpx;
+    font-size: 35rpx;
+    font-weight: bold;
+}
+.usr-info{
+    display: flex;
+    margin-top: 10rpx;
+    font-size: 32rpx;
+}
+.phone{
+    height: 80rpx;
+    width: 80rpx;
+    position: absolute;
+    right: 40rpx;
+    bottom: 160rpx;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250rpx;
+    height: 75rpx;
+    border: 1px solid lightgray;
+    border-radius: 50rpx;
+    position: absolute;
+    left: 230rpx;
+    font-size: 35rpx;
+    color: white;
+    background-color: orange;
+    margin-top: 20rpx;
+}

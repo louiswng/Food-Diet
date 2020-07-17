@@ -1,0 +1,51 @@
+.title{
+    padding-left: 40rpx;
+    padding-top: 40rpx;
+}
+.title1{
+    font-size: 40rpx;
+    font-weight: bold;
+}
+.title2{
+    padding-top: 15rpx;
+    font-size: 27rpx;
+    color: rgb(204, 187, 187);
+}
+.img1{
+    padding-top: 20rpx;
+    height: 300rpx;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 40rpx;
+    padding-right: 40rpx;
+    padding-top: 20rpx;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img2{
+    height: 110rpx;
+    width: 110rpx;
+}
+.name{
+    font-size: 32rpx;
+}
+.diet{
+    padding-left: 40rpx;
+    padding-top: 30rpx;
+}
+.title3{
+    font-size: 35rpx;
+    font-weight: bold;
+    padding-bottom: 10rpx;
+}
+.img3{
+    height: 350rpx;
+    width: 675rpx;
+    border-radius: 3%;
+}

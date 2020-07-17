@@ -1,0 +1,43 @@
+<view class="day">
+    <view class="week">星期三 - WEDNESSDAY</view>
+
+    <view class="food" wx:for="{{productlist1}}">
+        <view class="food-left">
+            <image class="img" src="{{item.srclist}}"/>
+            <view class="right">
+                <view class="name">{{item.namelist}}</view>
+                <view class="cal">{{item.heatlist}}</view>
+            </view>
+        </view>
+        <view class="food-right">
+            <image class="food-vip" src="{{item.vip}}"/>
+            <image class="food-shop" src="../../images/加入购物车.png"/>
+        </view>
+    </view>
+
+    <view class="total">
+        共摄入410 Kcal，推荐进行 3~4km 的跑步或 0.5h 动感单车消耗
+    </view>
+</view>
+
+<view class="day">
+    <view class="week">星期四 - THURSDAY</view>
+
+    <view class="food" wx:for="{{productlist2}}">
+        <view class="food-left">
+            <image class="img" src="{{item.srclist}}"/>
+            <view class="right">
+                <view class="name">{{item.namelist}}</view>
+                <view class="cal">{{item.heatlist}}</view>
+            </view>
+        </view>
+        <view class="food-right">
+            <image class="food-vip" src="{{item.vip}}"/>
+            <image class="food-shop" src="../../images/加入购物车.png"/>
+        </view>
+    </view>
+
+    <view class="total">
+        共摄入2511卡路里，推荐进行5~8km的跑步或1h动感单车消耗
+    </view>
+</view>

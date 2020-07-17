@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/user/user",
+    "pages/article/article",
+    "pages/diet/diet",
+    "pages/plan/plan",
+    "pages/detail/detail",
+    "pages/shop/shop",
+    "pages/upload/upload",
+    "pages/log/log",
+    "pages/circle/circle",
+    "pages/release/release",
+    "pages/odr_pcs/odr_pcs",
+    "pages/odr_dtl/odr_dtl",
+    "pages/odr_ctr/odr_ctr",
+    "pages/odr_map/odr_map",
+    "pages/inventory/inventory",
+    "pages/package/package"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3f3f3f",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color":"#646464",
+    "selectedColor":"fb575c",
+    "backgroundColor":"#f8f8f8",
+    "list":[{
+      "text":"首页",
+      "pagePath":"pages/home/home",
+      "iconPath":"images/首页灰.png",
+      "selectedIconPath":"images/首页绿.png"
+    },{
+      "text":"食谱",
+      "pagePath":"pages/diet/diet",
+      "iconPath":"images/食谱灰.png",
+      "selectedIconPath":"images/食谱绿.png"
+    },{
+      "text":"个人",
+      "pagePath":"pages/user/user",
+      "iconPath":"images/个人灰.png",
+      "selectedIconPath":"images/个人绿.png"
+    }]
+  }
+}

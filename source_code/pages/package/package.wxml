@@ -1,0 +1,6 @@
+<!-- 标头 -->
+<view class="top">
+    <view class="option-selected">套餐</view>
+    <view class="option-unselected">食材</view>
+    <view class="option-unselected">评价</view>
+</view>

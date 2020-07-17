@@ -1,0 +1,74 @@
+page{
+    background-color: rgb(244, 245, 246, 1);
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.clrff{
+    color: #fff;
+}
+.pad20{
+    padding: 20rpx;
+}
+.font32{
+    font-size: 32rpx;
+}
+.bgclr3e{
+    background-color: #3e3e3e;
+}
+.bgclrwhite{
+    background-color: white;
+}
+
+.avatar{
+    height: 150rpx;
+    width: 150rpx;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.arrow{
+    width: 50rpx;
+    height: 50rpx;
+    vertical-align: middle;
+}
+
+.part2{
+    padding-top: 40rpx;
+    padding-bottom: 40rpx;
+}
+
+.block2{
+    border-right: 1px solid white;
+    padding-right: 80rpx;
+}
+
+.img3{
+    width: 80rpx;
+    height: 80rpx;
+}
+
+.block5{
+    margin: 10rpx;
+    padding-right: 80rpx;
+}
+
+.part4{
+    margin-top: 30rpx;
+}
+.part5{
+    margin-top: 30rpx;
+}
+.part6{
+    margin-top: 30rpx;
+}
+
+.block6{
+    width: 620rpx;
+    margin: 20rpx;
+}

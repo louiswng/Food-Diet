@@ -1,0 +1,43 @@
+<map id="map" longitude="116.3566781" latitude="39.9629808" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location class="odr-map">
+    <cover-view class="mylocation">
+        <image style="height:70rpx;width:70rpx" src="../../images/我的位置.png" />
+    </cover-view>
+
+    <cover-view class="scale">
+        <image style="height:50rpx;width:50rpx;margin:10rpx 0" src="../../images/放大.png"/>
+        <image style="height:55rpx;width:55rpx;margin:10rpx 0" src="../../images/缩小.png"/>
+    </cover-view>
+    
+    <cover-view class="navi">
+        <image style="height:40rpx;width:40rpx;margin-right:10rpx" src="../../images/指南针.png"/>
+        <view >导航</view>
+    </cover-view>
+
+    <cover-view class="container">
+        <view class="info">
+            <view class="info-header">
+                <image style="height:20rpx;width:20rpx" src="../../images/点.png"/>
+                <view style="color:blue;margin-left:10rpx">小程序订单</view>
+                <view style="margin-left:70rpx">剩余</view>
+                <view style="margin-left:10rpx;color:orange">11分钟</view>
+                <view style="margin-left:120rpx">正在配送</view>
+            </view>
+
+            <view class="info-detail">
+                <view class="info-addr">
+                    <image style="height:40rpx;width:40rpx" src="../../images/定位.png"/>
+                    <view style="margin-left:10rpx">北京邮电大学西土城校区</view>
+                </view>
+                <view style="margin:10rpx 0 0 50rpx;font-size:32rpx">西土城10号 教学楼3号 403</view>
+                <view class="usr-info">
+                    <view style="margin-left:50rpx">王先生</view>
+                    <view style="margin-left:50rpx">尾号0911</view>
+                </view>
+            </view>
+
+            <image class="phone" src="../../images/电话.png"/>
+
+            <navigator class="btn">确认送达</navigator>
+        </view>
+    </cover-view>
+</map>

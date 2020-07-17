@@ -1,0 +1,29 @@
+<!-- 第一部分 -->
+<view class="top" style=''>
+    <image class="logo" src="../../images/logo.png"/>
+    <view class="search">
+        <view style='width:15%;display:inline-block;height:50rpx;'>
+            <image src='../../images/搜索灰.png' style='display:inline' mode="aspectFit"></image>
+        </view>
+        <input style="display:inline-block" placeholder="请输入商品名称"></input>
+    </view>
+</view>
+
+<!-- 第二部分 -->
+<view style="font-size:35rpx;font-weight:bold;background-color:white">
+    <view style="margin-left:30rpx;margin-bottom:20rpx;">全部分类</view>
+
+    <view class="row">
+        <view class="col" wx:for="{{array1}}">
+            <image  style="height:130rpx;width:130rpx" src="{{item.srclist}}"/>
+            <view style="font-size:35rpx;margin-top:20rpx">{{item.titlelist}}</view>
+        </view>
+    </view>
+    
+    <view class="row">
+        <view class="col" wx:for="{{array2}}">
+            <image  style="height:130rpx;width:130rpx" src="{{item.srclist}}"/>
+            <view style="font-size:35rpx;margin-top:20rpx">{{item.titlelist}}</view>
+        </view>
+    </view>
+</view>
